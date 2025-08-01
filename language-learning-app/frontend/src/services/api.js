@@ -4,8 +4,7 @@
 import axios from 'axios';
 
 // عنوان الباكند - يمكن تغييره حسب البيئة
-const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:54112';
-
+const BASE_URL = process.env.REACT_APP_API_URL || 'https://language-learning-platform2.onrender.com';
 // إعداد axios مع إعدادات افتراضية
 const api = axios.create({
   baseURL: BASE_URL,
