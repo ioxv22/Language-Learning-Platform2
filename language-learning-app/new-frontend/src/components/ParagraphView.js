@@ -320,7 +320,7 @@ const ParagraphView = ({ paragraph, onComplete }) => {
                         <div className="flex items-center justify-between">
                           <div>
                             <div className="english-text font-medium">{option}</div>
-                            <div className="arabic-text text-sm text-gray-600">{question.optionsAr[oIndex]}</div>
+                            <div className="arabic-text text-sm text-gray-600">{question.optionsAr && question.optionsAr[oIndex] ? question.optionsAr[oIndex] : ''}</div>
                           </div>
                           <div className={`w-4 h-4 rounded-full border-2 ${
                             quizAnswers[qIndex] === oIndex 

@@ -12,7 +12,8 @@ npm start
 
 ### 2. تشغيل الفرونت اند  
 ```powershell
-cd new-frontend
+cd ..\frontend
+npm start
 npm install  
 npm start
 ```
